@@ -1,0 +1,7 @@
+C:\Users\labinf\source\repos\EstructuraDatos\EstructuraDatos\bin\Debug\EstructuraDatos.exe.config
+C:\Users\labinf\source\repos\EstructuraDatos\EstructuraDatos\bin\Debug\EstructuraDatos.exe
+C:\Users\labinf\source\repos\EstructuraDatos\EstructuraDatos\bin\Debug\EstructuraDatos.pdb
+C:\Users\labinf\source\repos\EstructuraDatos\EstructuraDatos\obj\Debug\EstructuraDatos.csprojAssemblyReference.cache
+C:\Users\labinf\source\repos\EstructuraDatos\EstructuraDatos\obj\Debug\EstructuraDatos.csproj.CoreCompileInputs.cache
+C:\Users\labinf\source\repos\EstructuraDatos\EstructuraDatos\obj\Debug\EstructuraDatos.exe
+C:\Users\labinf\source\repos\EstructuraDatos\EstructuraDatos\obj\Debug\EstructuraDatos.pdb
