@@ -1,0 +1,10 @@
+C:\Users\labinf\source\repos\301\Contactos\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\labinf\source\repos\301\Contactos\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\labinf\source\repos\301\Contactos\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\labinf\source\repos\301\Contactos\Presentacion\bin\Debug\Logica.dll
+C:\Users\labinf\source\repos\301\Contactos\Presentacion\bin\Debug\Logica.pdb
+C:\Users\labinf\source\repos\301\Contactos\Presentacion\obj\Debug\Presentacion.csprojAssemblyReference.cache
+C:\Users\labinf\source\repos\301\Contactos\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\labinf\source\repos\301\Contactos\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\labinf\source\repos\301\Contactos\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\labinf\source\repos\301\Contactos\Presentacion\obj\Debug\Presentacion.pdb

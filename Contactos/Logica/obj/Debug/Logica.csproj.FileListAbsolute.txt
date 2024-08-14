@@ -1,0 +1,6 @@
+C:\Users\labinf\source\repos\301\Contactos\Logica\bin\Debug\Logica.dll
+C:\Users\labinf\source\repos\301\Contactos\Logica\bin\Debug\Logica.pdb
+C:\Users\labinf\source\repos\301\Contactos\Logica\obj\Debug\Logica.csprojAssemblyReference.cache
+C:\Users\labinf\source\repos\301\Contactos\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
+C:\Users\labinf\source\repos\301\Contactos\Logica\obj\Debug\Logica.dll
+C:\Users\labinf\source\repos\301\Contactos\Logica\obj\Debug\Logica.pdb
