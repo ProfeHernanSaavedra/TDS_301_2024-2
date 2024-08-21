@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="PresentacionWpf.Forms.UcNuevoContacto"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PresentacionWpf.Forms"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="600" Background="#F2F2F2" Loaded="UserControl_Loaded">
+    <Grid Height="500" VerticalAlignment="Top" HorizontalAlignment="Right" Width="600">
+        <Label Content="Nuevo Contacto"  HorizontalAlignment="Left" VerticalAlignment="Top" 
+               FontSize="22"  FontWeight="Bold"/>
+        
+        <Label Content="Nombre" Width="100" Height="40" Margin="85,52,415,408"/>
+        <TextBox x:Name="TxtNombre" Width="200" Height="40" Margin="185,52,215,408"/>
+        
+        <Label Content="Apellido" Width="100" Height="40" Margin="85,122,415,338"/>
+        <TextBox x:Name="TxtApellido" Width="200" Height="40" Margin="185,122,215,338"/>
+        
+        <Label Content="Telefono" Width="100" Height="40" Margin="80,198,420,262"/>
+        <TextBox x:Name="TxtTelefono" Width="200" Height="40" Margin="185,198,215,262"/>
+        
+        <Label Content="Cumpleaños" Width="100" Height="40" Margin="77,266,423,194"/>
+        <DatePicker Name="DtFechaNacimiento" HorizontalAlignment="Left" Margin="185,289,0,0" 
+                    VerticalAlignment="Top" Height="40"  Width="200"/>
+        
+        <Label Content="Grupo" Width="100" Height="40" Margin="85,338,415,122"/>
+        <ComboBox x:Name="CboGrupo" HorizontalAlignment="Left" Margin="185,356,0,0" VerticalAlignment="Top" 
+                  Height="40" Width="200"/>
+        
+        <Button Name="BtnGuardar" Content="Guardar" HorizontalAlignment="Left" Margin="440,392,0,0" 
+                VerticalAlignment="Top" Width="60" Height="40" Background="Azure" RenderTransformOrigin="0.833,-1.1"/>
+    </Grid>
+</UserControl>
