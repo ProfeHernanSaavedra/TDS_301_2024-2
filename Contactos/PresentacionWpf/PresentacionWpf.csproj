@@ -58,6 +58,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Forms\UcVerContactos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -68,6 +72,9 @@
     </Compile>
     <Compile Include="Forms\UcNuevoContacto.xaml.cs">
       <DependentUpon>UcNuevoContacto.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UcVerContactos.xaml.cs">
+      <DependentUpon>UcVerContactos.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>

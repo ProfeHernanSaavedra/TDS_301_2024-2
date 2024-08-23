@@ -34,5 +34,61 @@ namespace PresentacionWpf.Forms
             CboGrupo.ItemsSource = Enum.GetValues(typeof(Clasificacion));
             CboGrupo.SelectedItem = Clasificacion.Default;
         }
+
+        private void BtnGuardar_Click(object sender, RoutedEventArgs e)
+        {
+            //Capturar datos del form
+            string nombre = TxtNombre.Text.Trim();
+            string apellido = TxtApellido.Text.Trim();
+            int telefono = int.Parse(TxtTelefono.Text.Trim());
+            DateTime fechaNacimiento = (DateTime)DtFechaNacimiento.SelectedDate;
+            Clasificacion grupo = (Clasificacion)CboGrupo.SelectedItem;
+
+            //validar datos
+            List<string> errores = new List<string>();
+
+            if (nombre == string.Empty)
+            {
+                errores.Add("Debe ingresar un nombre para el nuevo contacto");
+            }
+
+            if (apellido == string.Empty)
+            {
+                errores.Add("Debe ingresar un apellido para el nuevo contacto");
+            }
+
+
+            if (errores.Count == 0)
+            {
+                //Guardar datos en BLL
+                Persona nuevaPersona = new Persona();
+                nuevaPersona.Nombre = nombre;
+                nuevaPersona.Apellido = apellido;
+                nuevaPersona.Telefono = telefono;
+                nuevaPersona.FechaNacimiento = fechaNacimiento;
+                nuevaPersona.Grupo = grupo;
+
+                ContactoBLL cbll = new ContactoBLL();
+                cbll.Agregar(nuevaPersona);
+
+                //limpiar formulario
+                TxtNombre.Text = string.Empty;
+                TxtApellido.Text = string.Empty;
+                TxtTelefono.Text = string.Empty;
+                DtFechaNacimiento.SelectedDate = DateTime.Today;
+                CboGrupo.SelectedItem = Clasificacion.Default;
+
+                //mensajes
+                MessageBox.Show(nombre + " se agregó correctamente al listado de contactos","Nuevo Contacto",MessageBoxButton.OK,MessageBoxImage.Information);
+            }
+            else
+            {
+                //hay errores
+                string mensajeError = string.Join("\n", errores);
+                MessageBox.Show(mensajeError,"Error al crear contacto",MessageBoxButton.OK,MessageBoxImage.Error);
+            }
+
+            
+        }
     }
 }

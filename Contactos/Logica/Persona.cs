@@ -25,6 +25,9 @@ namespace Logica
         public string Nombre { get => _nombre; set => _nombre = value; }
         public string Apellido { get => _apellido; set => _apellido = value; }
         public DateTime FechaNacimiento { get => _fechaNacimiento; set => _fechaNacimiento = value; }
+
+        public string Cumpleaños { get => _fechaNacimiento.ToString("dd/MMMM"); }
+
         public int Telefono { get => _telefono; set => _telefono = value; }
         public Clasificacion Grupo { get => _grupo; set => _grupo = value; }
 

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\labinf\source\repos\301\Contactos\PresentacionWpf\App.xaml
-2-1931681274
+31320009152
 
-10-1011829080
+112032953593
 14-731255258
-Forms\UcNuevoContacto.xaml;MainWindow.xaml;
+Forms\UcNuevoContacto.xaml;Forms\UcVerContactos.xaml;MainWindow.xaml;
 
-True
+False
 

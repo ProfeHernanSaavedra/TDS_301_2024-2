@@ -28,6 +28,6 @@
                   Height="40" Width="200"/>
         
         <Button Name="BtnGuardar" Content="Guardar" HorizontalAlignment="Left" Margin="440,392,0,0" 
-                VerticalAlignment="Top" Width="60" Height="40" Background="Azure" RenderTransformOrigin="0.833,-1.1"/>
+                VerticalAlignment="Top" Width="60" Height="40" Background="Azure" RenderTransformOrigin="0.833,-1.1" Click="BtnGuardar_Click"/>
     </Grid>
 </UserControl>

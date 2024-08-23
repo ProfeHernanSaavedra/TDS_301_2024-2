@@ -18,3 +18,5 @@ C:\Users\labinf\source\repos\301\Contactos\PresentacionWpf\obj\Debug\Forms\UcNue
 C:\Users\labinf\source\repos\301\Contactos\PresentacionWpf\bin\Debug\Logica.dll
 C:\Users\labinf\source\repos\301\Contactos\PresentacionWpf\bin\Debug\Logica.pdb
 C:\Users\labinf\source\repos\301\Contactos\PresentacionWpf\obj\Debug\PresentacionWpf.csproj.CopyComplete
+C:\Users\labinf\source\repos\301\Contactos\PresentacionWpf\obj\Debug\Forms\UcVerContactos.g.cs
+C:\Users\labinf\source\repos\301\Contactos\PresentacionWpf\obj\Debug\Forms\UcVerContactos.baml

@@ -33,6 +33,16 @@
                     BorderThickness="0"
                     HorizontalContentAlignment="Left" Padding="15,1,1,1"
                     FontWeight="Normal" Click="BtnNuevo_Click"/>
+            <Button Name="BtnListar" 
+                    Content="Listar Contactos"
+                    Width="200"
+                    Height="40"
+                    VerticalAlignment="Top"
+                    HorizontalAlignment="Center"
+                    Background="Transparent"
+                    BorderThickness="0"
+                    HorizontalContentAlignment="Left" Padding="15,1,1,1"
+                    FontWeight="Normal" Click="BtnListar_Click" />
         </StackPanel>
         <Grid x:Name="GrdMain" Grid.Column="1">
             
