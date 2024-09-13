@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.33403.129
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentacion", "Presentacion\Presentacion.csproj", "{6E0B388E-6032-4AD1-AE7A-24E850543786}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio", "Negocio\Negocio.csproj", "{E7ECD402-F350-4C39-9945-DD23FB64CC79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datos", "Datos\Datos.csproj", "{AF94D467-BEB6-4CFA-8D80-4F30066C125E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E0B388E-6032-4AD1-AE7A-24E850543786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E0B388E-6032-4AD1-AE7A-24E850543786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E0B388E-6032-4AD1-AE7A-24E850543786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E0B388E-6032-4AD1-AE7A-24E850543786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7ECD402-F350-4C39-9945-DD23FB64CC79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7ECD402-F350-4C39-9945-DD23FB64CC79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7ECD402-F350-4C39-9945-DD23FB64CC79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7ECD402-F350-4C39-9945-DD23FB64CC79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF94D467-BEB6-4CFA-8D80-4F30066C125E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF94D467-BEB6-4CFA-8D80-4F30066C125E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF94D467-BEB6-4CFA-8D80-4F30066C125E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF94D467-BEB6-4CFA-8D80-4F30066C125E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8454363C-55E0-468E-A8D7-6E8336E97EEA}
+	EndGlobalSection
+EndGlobal
