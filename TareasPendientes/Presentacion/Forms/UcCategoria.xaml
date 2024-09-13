@@ -12,7 +12,7 @@
 
 
         <Button Name="BtnEliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="435,318,0,0" 
-                VerticalAlignment="Top" Width="82" Height="22" Background="Azure" RenderTransformOrigin="0.833,-1.1"/>
+                VerticalAlignment="Top" Width="82" Height="22" Background="Azure" RenderTransformOrigin="0.833,-1.1" Click="BtnEliminar_Click"/>
         <GroupBox Header="Nueva Categoría" HorizontalAlignment="Left" Height="149" Margin="19,44,0,0" VerticalAlignment="Top" Width="303">
             <Grid HorizontalAlignment="Left" Height="109" Margin="10,10,0,0" VerticalAlignment="Top" Width="276">
                 <Label Content="Nombre" HorizontalAlignment="Left" Margin="18,32,0,0" VerticalAlignment="Top"/>

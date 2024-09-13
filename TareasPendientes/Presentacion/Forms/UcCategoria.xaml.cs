@@ -26,6 +26,12 @@ namespace Presentacion.Forms
         public UcCategoria()
         {
             InitializeComponent();
+            ListarCategoria();
+        }
+
+        private void ListarCategoria()
+        {
+            LstCatgoria.ItemsSource = catBll.GetAll();
         }
 
         private void BtnGuardar_Click(object sender, RoutedEventArgs e)
@@ -38,10 +44,21 @@ namespace Presentacion.Forms
 
                 MessageBox.Show("Categoria Agregada", "Nueva Categoría", MessageBoxButton.OK, MessageBoxImage.Information);
                 TxtNombre.Text = string.Empty;
+                ListarCategoria();
             }catch(ArgumentException ex)
             {
                 MessageBox.Show(ex.Message, "Nueva Categoría", MessageBoxButton.OK, MessageBoxImage.Error);
             }
+        }
+
+        private void BtnEliminar_Click(object sender, RoutedEventArgs e)
+        {
+
+            string nombre = LstCatgoria.SelectedItem.ToString();
+            catBll.Delete(nombre);
+
+            ListarCategoria();
+
         }
     }
 }

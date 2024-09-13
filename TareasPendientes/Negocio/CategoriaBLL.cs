@@ -36,5 +36,21 @@ namespace Negocio
             Categoria categoria = tp.Categoria.Where(c => c.Nombre == nombre).FirstOrDefault();
             return categoria;
         }
+
+        public List<Categoria> GetAll()
+        {
+            return tp.Categoria.ToList();
+        }
+
+        public void Delete(string nombre)
+        {
+            Categoria c = Get(nombre);
+
+            if (c != null)
+            {
+                tp.Categoria.Remove(c);
+                tp.SaveChanges();
+            }
+        }
     }
 }
